@@ -15,7 +15,7 @@ pipeline {
         stage("Build application") {
             steps {
                 script {
-                    echo "building the spring application"
+                    echo "building the react application"
                    
                 }
             }
