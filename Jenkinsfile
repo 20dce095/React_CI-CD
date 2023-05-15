@@ -36,7 +36,7 @@ pipeline {
         stage("Deploy Application") {
             steps {
                 script {
-                    echo "deploying the spring application on ec2"
+                    echo "deploying the spring application on ec2,,,"
                     //gv.deployApp()
                     def dockerStop="docker stop ec2-react"
                     def dockerDelete="docker rm ec2-react"
