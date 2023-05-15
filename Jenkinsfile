@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment{
-        IMAGE_NAME= 'pradippipaliya/react_app:1.5'
+        IMAGE_NAME= 'pradippipaliya/react_app:1.6'
     }
 
     stages {
