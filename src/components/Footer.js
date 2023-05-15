@@ -11,7 +11,7 @@ export default function Footer() {
       <Navbar fixed="bottom" bg="dark" variant="dark">  
         <Container  className="text-center text-muted">
             <Col lg={12} className="text-center text-light">
-            {year} - All Rights reserved by Pradip Pipaliya DevOps....
+            {year} - All Rights reserved by Pradip Pipaliya DevOps
             </Col>
         </Container>
       </Navbar>
