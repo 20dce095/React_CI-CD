@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage("Build application") {
+        stage("Build app") {
             steps {
                 script {
                     echo "building the react application"
