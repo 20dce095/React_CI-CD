@@ -43,9 +43,9 @@ pipeline {
                     def dockerCreate="docker run -p 3000:3000 --name ec2-react ${IMAGE_NAME}"
 
                     sshagent(['ec2-linux-key']) {
-                        sh "ssh -o StrictHostKeyChecking=no ec2-user@54.235.62.168  ${dockerStop}"
-                        sh "ssh -o StrictHostKeyChecking=no ec2-user@54.235.62.168  ${dockerDelete}"
-                        sh "ssh -o StrictHostKeyChecking=no ec2-user@54.235.62.168  ${dockerCreate}"
+                        sh "ssh -o StrictHostKeyChecking=no ec2-user@44.202.72.214  ${dockerStop}"
+                        sh "ssh -o StrictHostKeyChecking=no ec2-user@44.202.72.214  ${dockerDelete}"
+                        sh "ssh -o StrictHostKeyChecking=no ec2-user@44.202.72.214  ${dockerCreate}"
 
                     }
                 }
